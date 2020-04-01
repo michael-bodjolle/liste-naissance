@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="liste.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <header>
+        <nav class="tbic">
+            <img src="photo/bébé.png" width="100" />
+            <h1 class="tbc"> THE BABY IS COMING</h1>
+        </nav>
+        <div class="image2">
+            <img src="photo/tidoo-header.jpg" alt="bebe" width="400" id="tidoo">
+        </div>
+    </header>
+    <main>
+        <h1 class="formu">FORMULAIRE:</h1><br>
+
+        <form>
+            <div class="center">
+
+                <div class="valeur">
+                    <label for="nom"> Votre Nom: </label>
+                    <input type="name" id="name" name="name" placeholder="Votre Nom" required="required"></div>
+                <br />
+
+                <div class="valeur">
+                    <label for="prenom">Votre Prénom:</label>
+                    <input type="name" id="name" name="name" placeholder="Votre Prénom" required="required"></div>
+                <br />
+
+                <div class="valeur">
+                    <label for="mail"> Votre adresse email: </label>
+                    <input type="email" id="email" name="email" placeholder="Email"></div><br />
+
+                <div class="valeur">
+                    <label for="link">Lien du produit:</label>
+                    <input type="url" id="link" name="link" placeholder="Lien du Produit" required="required"></div>
+                <br />
+
+                <div class="valeur">
+                    <label for="product">Nom du produit:</label>
+                    <input type="text" id="product" name="product" placeholder="Nom du Produit" required="required">
+                </div><br />
+
+                <div class="valeur">
+                    <label for="description">Description du produit:</label>
+                    <textarea class="description1" rows="10" cols="50" id="text" name="text"
+                        placeholder="Description du produit" required="required"></textarea>
+                </div>
+            </div>
+            <div class="valeur">
+                <label for="product">Image:</label>
+                <input type="file" id="image" name="image" required="required">
+            </div><br />
+
+            <div class="valeur">
+                <label for="price">Prix du produit:</label>
+                <input type="number" name="price" id="price" min="0" max="10000000" step="0.01" value="0"
+                    required="required">
+                <b>€</b> <br />
+
+                <div class="valeur">
+                    <label for="Categorie">Catégorie:</label>
+                    <input type="text" name="name" placeholder="Catégorie" required="required"></div>
+                <div class="valeur">
+                    <label for="priorite"> Priorité de l'achat:</label>
+                    <input type="radio" id="urgent" name="priorite" value="urgent">
+                    <label for="urgent">Urgent</label>
+                    <input type="radio" id="normale" name="priorite" value="normale">
+                    <label for="normale">Normale</label>
+                    <input type="radio" id="buy" name="priorite" value="achete">
+                    <label for="buy">Déja acheté</label>
+                    <input type="radio" id="select" name="priorite" value="select">
+                    <label for="select">Déjà selectionné</label>
+
+
+
+
+                </div>
+
+                <a href="liste.html"><button id="buttondeux"> Valider </button> </a>
+        </form>
+
+
+    </main>
+
+    <footer class="bas">
+        <a href="https://www.facebook.com/">facebook</a> <a href="https://www.instagram.com/?hl=fr">instagram</a>
+    </footer>
+</body>
+
+</html>

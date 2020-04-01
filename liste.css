@@ -1,0 +1,273 @@
+*
+{
+    margin: 0;
+    padding:0 ;
+    font-family: "Comic Sans ms";
+}
+
+
+nav>img
+{
+   border-radius: 50%;
+
+}
+#tidoo
+{
+    min-width: 100%;
+}
+
+
+.tbic   
+{
+     background-color:rgb(120, 187, 204);
+     text-align: center;
+     line-height:20px;
+    
+}
+
+.paraph
+{
+    text-align: center;
+    
+
+}
+.je
+{
+    text-align: center;
+}
+
+.urg
+{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.ldn
+{
+    text-align: center;
+    
+}
+.un 
+{
+   display: flex;
+   flex-direction: row;
+}
+.textun
+{   display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    height: auto;
+    width: 100%;
+    
+    
+
+}
+.deux
+{
+    display: flex;
+    flex-direction: row;
+}
+.textdeux
+{   display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    height: auto;
+    width: 100%;
+   
+    
+
+}
+.trois
+{
+    display: flex;
+    flex-direction: row;
+}
+.texttrois
+{   display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    height: auto;
+    width: 100%;
+   
+    
+
+}
+
+.ben
+{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.quatre
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.textquatre
+{
+    display: flex;
+    flex-direction: column;
+    background-color: thistle;
+    height: auto;
+    width: 100%;
+    
+}
+
+.cinq
+{
+    display: flex;
+    flex-direction: row;
+}
+.textcinq
+{
+    display: flex;
+    flex-direction: column;
+    background-color:  thistle;
+    height: auto;
+    width: 100%;
+   
+}
+.six
+{
+    display: flex;
+    flex-direction: row;
+}
+.textsix
+{
+    display: flex;
+    flex-direction: column;
+    background-color:  thistle;
+    height: auto;
+    width: 100%;
+    
+}
+.spa
+{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.sept
+{
+   display: flex;
+   flex-direction: row;
+}
+.textsept
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 223, 195);
+    height: auto;
+    width: 100%;
+    
+}
+.huit
+{
+    display: flex;
+    flex-direction: row;
+}
+.texthuit
+{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(228, 223, 195);
+    height: auto;
+    width: 100%;
+    
+}
+.neuf
+{
+   display: flex;
+   flex-direction: row;
+}
+.textneuf
+{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(228, 223, 195);
+    height: auto;
+    width: 100%;
+    
+}
+.da
+{
+    text-align: center;
+    text-decoration: underline;
+   
+}
+.dix
+{
+    display: flex;
+    flex-direction: row; 
+}
+.textdix
+{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(223, 223, 213);
+    height:auto;
+    width: 100%;
+   
+}
+
+.onze
+{
+    display: flex;
+    flex-direction: row;
+}
+.textonze
+{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(223, 223, 213);
+    height: auto;
+    width: 100%;
+   
+}
+
+.douze
+{
+    display: flex;
+    flex-direction: row;
+}
+.textdouze
+{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(223, 223, 213);
+    height: auto;
+    width: 100%;
+   
+}
+
+button
+{
+ display: block;
+ margin: auto;
+}
+footer
+{
+    text-align: center;
+    background-color:rgb(120, 187, 204) ;
+    margin-top: auto;
+    line-height: 66px;    
+}
+a:hover
+{
+    color: white;
+}
+
+.formu
+{
+    text-align: center;
+    
+}
+
+form
+{
+   text-align: center;
+}
